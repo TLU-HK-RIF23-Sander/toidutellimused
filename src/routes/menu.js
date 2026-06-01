@@ -11,7 +11,7 @@ const data = require("../data");
 // ============================================
 
 router.get("/", (req, res) => {
-  res.json({ menu: data.mnu });
+  res.json({ menu: data.menu });
 });
 
 // Kõik kategooriad - peab olema ENNE /:id
